@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-import data from "./data.json";
-
+const data = require("./data.json");
 const app = express();
 app.use(cors());
 
